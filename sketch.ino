@@ -2,15 +2,18 @@
 #include <PubSubClient.h>
 
 // -------------------- WiFi Credentials --------------------
-const char* ssid = "WOKWI-GUEST";
-const char* password = "";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
+
 
 // -------------------- Adafruit IO --------------------
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883
 
-#define AIO_USERNAME "maham_mumtaz"
-#define AIO_KEY "aio_alQI96OZ7z6KNP3qo63BXL1x9x0s"
+
+
+#define AIO_USERNAME "YOUR_ADAFRUIT_USERNAME"
+#define AIO_KEY "YOUR_ADAFRUIT_IO_KEY"
 
 // -------------------- HC-SR04 Pins --------------------
 #define TRIG_PIN 5
